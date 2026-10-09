@@ -1,0 +1,67 @@
+<session jtag_chain="USB-Blaster [USB-0]" jtag_device="@1: 10M50DA(.|ES)/10M50DC (0x031050DD)">
+  <display_attributes is_max_probe_read_interval="1" is_write_immediate="1" probe_read_interval="1" probe_read_interval_units="s"/>
+  <instance enable_logging="true" entity_name="JIO0" is_auto_node="true" name="JIO0">
+    <node_ip_info instance_id="0" mfg_id="110" node_id="9" version="0"/>
+    <sources>
+      <source name="source[0]" value="false"/>
+      <source name="source[1]" value="false"/>
+      <source name="source[2]" value="true"/>
+      <source name="source[3]" value="false"/>
+      <source name="source[4]" value="true"/>
+      <source name="source[5]" value="false"/>
+      <source name="source[6]" value="true"/>
+      <source name="source[7]" value="true"/>
+      <source name="source[8]" value="false"/>
+      <source name="source[9]" value="false"/>
+    </sources>
+    <probes>
+      <probe name="probe[0]"/>
+      <probe name="probe[1]"/>
+      <probe name="probe[2]"/>
+      <probe name="probe[3]"/>
+      <probe name="probe[4]"/>
+      <probe name="probe[5]"/>
+      <probe name="probe[6]"/>
+      <probe name="probe[7]"/>
+      <probe name="probe[8]"/>
+      <probe name="probe[9]"/>
+      <probe name="probe[10]"/>
+      <probe name="probe[11]"/>
+      <probe name="probe[12]"/>
+      <probe name="probe[13]"/>
+      <probe name="probe[14]"/>
+      <probe name="probe[15]"/>
+    </probes>
+    <view>
+      <view_node expanded="false" group_name="probe[15..0]" index="0" lsb_to_msb="false" node_type="probe" view_type="group_header"/>
+      <view_node expanded="true" index="15" node_type="probe" view_type="group_member"/>
+      <view_node expanded="true" index="14" node_type="probe" view_type="group_member"/>
+      <view_node expanded="true" index="13" node_type="probe" view_type="group_member"/>
+      <view_node expanded="true" index="12" node_type="probe" view_type="group_member"/>
+      <view_node expanded="true" index="11" node_type="probe" view_type="group_member"/>
+      <view_node expanded="true" index="10" node_type="probe" view_type="group_member"/>
+      <view_node expanded="true" index="9" node_type="probe" view_type="group_member"/>
+      <view_node expanded="true" index="8" node_type="probe" view_type="group_member"/>
+      <view_node expanded="true" index="7" node_type="probe" view_type="group_member"/>
+      <view_node expanded="true" index="6" node_type="probe" view_type="group_member"/>
+      <view_node expanded="true" index="5" node_type="probe" view_type="group_member"/>
+      <view_node expanded="true" index="4" node_type="probe" view_type="group_member"/>
+      <view_node expanded="true" index="3" node_type="probe" view_type="group_member"/>
+      <view_node expanded="true" index="2" node_type="probe" view_type="group_member"/>
+      <view_node expanded="true" index="1" node_type="probe" view_type="group_member"/>
+      <view_node expanded="true" index="0" node_type="probe" view_type="group_member"/>
+      <view_node expanded="false" group_name="source[9..0]" index="0" lsb_to_msb="false" node_type="source" view_type="group_header"/>
+      <view_node expanded="true" index="9" node_type="source" view_type="group_member"/>
+      <view_node expanded="true" index="8" node_type="source" view_type="group_member"/>
+      <view_node expanded="true" index="7" node_type="source" view_type="group_member"/>
+      <view_node expanded="true" index="6" node_type="source" view_type="group_member"/>
+      <view_node expanded="true" index="5" node_type="source" view_type="group_member"/>
+      <view_node expanded="true" index="4" node_type="source" view_type="group_member"/>
+      <view_node expanded="true" index="3" node_type="source" view_type="group_member"/>
+      <view_node expanded="true" index="2" node_type="source" view_type="group_member"/>
+      <view_node expanded="true" index="1" node_type="source" view_type="group_member"/>
+      <view_node expanded="true" index="0" node_type="source" view_type="group_member"/>
+    </view>
+    <log data="05CBD5051F6710C000001300008C000003300000D00000530000" max_size="8" size="8" time="0FBF0CA6000000007FBF0CA60000000095CF0CA60000000016CF0CA60000000086CF0CA600000000F6CF0CA60000000097CF0CA600000000F7CF0CA600000000" width="26"/>
+  </instance>
+</session>

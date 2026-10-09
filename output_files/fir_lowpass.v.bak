@@ -1,0 +1,57 @@
+module fir_lowpass (
+    input  wire clk,
+    input  wire reset,
+    input  wire sample_enable,
+    input  wire signed [15:0] sample_in,
+    output reg signed [15:0] sample_out,
+    output reg output_valid
+);
+
+    reg signed [15:0] delay [0:7];
+    reg signed [31:0] weighted_sum;
+
+    integer k;
+    integer j;
+    integer weight;
+
+    // Current sample has coefficient 1.
+    // Previous samples have coefficients 2,3,4,5,4,3,2,1.
+    always @(*) begin
+        weighted_sum = {{16{sample_in[15]}}, sample_in};
+        weight = 0;
+
+        for (k = 0; k < 8; k = k + 1) begin
+            if (k < 4)
+                weight = k + 2;
+            else
+                weight = 8 - k;
+
+            weighted_sum = weighted_sum
+                         + ($signed(delay[k]) * weight);
+        end
+    end
+
+    always @(posedge clk) begin
+        if (reset) begin
+            sample_out  <= 16'sd0;
+            output_valid <= 1'b0;
+
+            for (j = 0; j < 8; j = j + 1)
+                delay[j] <= 16'sd0;
+        end
+        else begin
+            output_valid <= 1'b0;
+
+            if (sample_enable) begin
+                sample_out <= weighted_sum / 32'sd25;
+                output_valid <= 1'b1;
+
+                for (j = 7; j > 0; j = j - 1)
+                    delay[j] <= delay[j - 1];
+
+                delay[0] <= sample_in;
+            end
+        end
+    end
+
+endmodule

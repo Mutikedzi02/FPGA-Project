@@ -1,0 +1,18 @@
+Fitter Status : Successful - Sun Oct  4 13:46:38 2026
+Quartus Prime Version : 25.1std.0 Build 1129 10/21/2025 Patches 0.02std SC Lite Edition
+Revision Name : DDC_Board_Project
+Top-level Entity Name : DDC_Board_Project
+Family : MAX 10
+Device : 10M50DAF484C7G
+Timing Models : Final
+Total logic elements : 1,571 / 49,760 ( 3 % )
+    Total combinational functions : 1,481 / 49,760 ( 3 % )
+    Dedicated logic registers : 721 / 49,760 ( 1 % )
+Total registers : 721
+Total pins : 21 / 360 ( 6 % )
+Total virtual pins : 0
+Total memory bits : 512 / 1,677,312 ( < 1 % )
+Embedded Multiplier 9-bit elements : 4 / 288 ( 1 % )
+Total PLLs : 0 / 4 ( 0 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0 / 2 ( 0 % )
