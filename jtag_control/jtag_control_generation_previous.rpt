@@ -1,0 +1,28 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate C:\FPGA\DDC_Board_Project\jtag_control.qsys --block-symbol-file --output-directory=C:\FPGA\DDC_Board_Project\jtag_control --family="MAX 10" --part=10M50DAF484C7G
+Progress: Loading DDC_Board_Project/jtag_control.qsys
+Progress: Reading input file
+Progress: Adding in_system_sources_probes_0 [altera_in_system_sources_probes 25.1]
+Progress: Parameterizing module in_system_sources_probes_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate C:\FPGA\DDC_Board_Project\jtag_control.qsys --synthesis=VERILOG --output-directory=C:\FPGA\DDC_Board_Project\jtag_control\synthesis --family="MAX 10" --part=10M50DAF484C7G
+Progress: Loading DDC_Board_Project/jtag_control.qsys
+Progress: Reading input file
+Progress: Adding in_system_sources_probes_0 [altera_in_system_sources_probes 25.1]
+Progress: Parameterizing module in_system_sources_probes_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: jtag_control: Generating "jtag_control" for QUARTUS_SYNTH
+Info: in_system_sources_probes_0: "jtag_control" instantiated altera_in_system_sources_probes "in_system_sources_probes_0"
+Info: jtag_control: Done "jtag_control" with 2 modules, 2 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

@@ -1,0 +1,7 @@
+1 11 sample_tick 4 fast 38 C:/FPGA/DDC_Board_Project/ddc_sim_work 0 0 0 0 40 0
+1 11 test_signal 4 fast 38 C:/FPGA/DDC_Board_Project/ddc_sim_work 0 0 0 0 49 0
+1 9 nco_phase 4 fast 38 C:/FPGA/DDC_Board_Project/ddc_sim_work 0 0 0 0 41 0
+1 7 nco_lut 4 fast 38 C:/FPGA/DDC_Board_Project/ddc_sim_work 0 0 0 0 131 0
+1 8 iq_mixer 4 fast 38 C:/FPGA/DDC_Board_Project/ddc_sim_work 0 0 0 0 33 0
+1 11 fir_lowpass 4 fast 38 C:/FPGA/DDC_Board_Project/ddc_sim_work 0 0 131072 0 260 0
+1 6 tb_ddc 4 fast 38 C:/FPGA/DDC_Board_Project/ddc_sim_work 0 0 180224 0 468 0

@@ -1,0 +1,190 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2025.2 2025.05, May 31 2025
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/FPGA/DDC_Board_Project
+T_opt
+!i145 1
+!i144 0
+!s110 1791144784
+VB@Z;aLTLU8dFddz>Y@c=I1
+04 6 4 work tb_ddc fast 0
+=1-744ca16299f5-6ac2b34e-1a8-66e0
+R0
+!s12f OEM100
+!s12b OEM100
+!s124 OEM10U8 
+!s135 nogc
+o-quiet -auto_acc_if_foreign -work ddc_sim_work +acc
+tCvgOpt 0 defaultOptions 1107585188
+n@_opt
+OL;O;2025.2;82
+vfir_lowpass
+Z2 2sample_tick.v|test_signal.v|nco_phase.v|nco_lut.v|iq_mixer.v|fir_lowpass.v|tb_ddc.v
+Z3 !s110 1791144760
+!i10b 1
+!s100 KT@>YGDjN8SEKJe<@hN5D0
+IaoF9FfR=00alab4XQQbD30
+R1
+w1791033733
+8fir_lowpass.v
+Ffir_lowpass.v
+!i122 0
+L0 1 152
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2025.2;82
+r1
+!s85 0
+31
+Z6 !s108 1791144759.000000
+Z7 !s107 tb_ddc.v|fir_lowpass.v|iq_mixer.v|nco_lut.v|nco_phase.v|test_signal.v|sample_tick.v|
+Z8 !s90 -reportprogress|300|-work|ddc_sim_work|sample_tick.v|test_signal.v|nco_phase.v|nco_lut.v|iq_mixer.v|fir_lowpass.v|tb_ddc.v|
+!i113 0
+Z9 o-work ddc_sim_work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z10 tCvgOpt 0 defaultOptions 1085333592
+viq_mixer
+R2
+R3
+!i10b 1
+!s100 ^9ZjZL4OchCdIoTfFbSVc2
+I_c5kQ=W5:^]z==O_dz=Te3
+R1
+w1791030458
+8iq_mixer.v
+Fiq_mixer.v
+!i122 0
+L0 1 21
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vnco_lut
+R2
+R3
+!i10b 1
+!s100 fReG`<4mW2jfD;lZM9I[P3
+IFA3AVKaaeE4XGCVfNcMkT3
+R1
+w1791029814
+8nco_lut.v
+Fnco_lut.v
+!i122 0
+L0 1 76
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vnco_phase
+R2
+R3
+!i10b 1
+!s100 Q>NGNLhD@o=NYOOTP_`Q20
+IR7;gNEzHT4B]9g:c8_^j42
+R1
+w1791029692
+8nco_phase.v
+Fnco_phase.v
+!i122 0
+L0 1 25
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vsample_tick
+R2
+R3
+!i10b 1
+!s100 _=fKRYneha>Kl_i<cje?83
+IF@hd[@z2K9T1ig47G[:J@3
+R1
+w1791026728
+8sample_tick.v
+Fsample_tick.v
+!i122 0
+L0 1 24
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vtb_ddc
+R2
+R3
+!i10b 1
+!s100 gO?48DeH[d@?`2TRlg`bF1
+I9[K;gI0fBfTNjJAOTV0M:3
+R1
+w1791144686
+8tb_ddc.v
+Ftb_ddc.v
+!i122 0
+L0 3 125
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vtest_signal
+R2
+R3
+!i10b 1
+!s100 66>PLmoKfco?l5lmbX<=e1
+IZ9WXI90lbnZo=cB8?K]HF0
+R1
+w1791027850
+8test_signal.v
+Ftest_signal.v
+!i122 0
+L0 1 32
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
