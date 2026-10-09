@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="1Ad5JGEh8bp6eMGHVN_L">
+    <mxGraphModel dx="946" dy="219" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3UE59Q6NZRX0zF2cvwm0-9" edge="1" parent="1" source="3UE59Q6NZRX0zF2cvwm0-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="3UE59Q6NZRX0zF2cvwm0-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3UE59Q6NZRX0zF2cvwm0-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Internal 20 KHz test source&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="3UE59Q6NZRX0zF2cvwm0-10" edge="1" parent="1" source="3UE59Q6NZRX0zF2cvwm0-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="3UE59Q6NZRX0zF2cvwm0-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3UE59Q6NZRX0zF2cvwm0-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;I and Q signed mixer&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="3UE59Q6NZRX0zF2cvwm0-11" edge="1" parent="1" source="3UE59Q6NZRX0zF2cvwm0-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="3UE59Q6NZRX0zF2cvwm0-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3UE59Q6NZRX0zF2cvwm0-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Matched nine tap FIR filters&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="560" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="3UE59Q6NZRX0zF2cvwm0-12" edge="1" parent="1" source="3UE59Q6NZRX0zF2cvwm0-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="3UE59Q6NZRX0zF2cvwm0-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3UE59Q6NZRX0zF2cvwm0-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Warm up and decimation by five&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="560" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="3UE59Q6NZRX0zF2cvwm0-15" edge="1" parent="1" source="3UE59Q6NZRX0zF2cvwm0-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="3UE59Q6NZRX0zF2cvwm0-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3UE59Q6NZRX0zF2cvwm0-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;18 or 20 KHz quadrature LO&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="3UE59Q6NZRX0zF2cvwm0-13" edge="1" parent="1" source="3UE59Q6NZRX0zF2cvwm0-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="3UE59Q6NZRX0zF2cvwm0-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3UE59Q6NZRX0zF2cvwm0-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Sixteen I/Q pairs in capture memory&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="560" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="3UE59Q6NZRX0zF2cvwm0-14" edge="1" parent="1" source="3UE59Q6NZRX0zF2cvwm0-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="3UE59Q6NZRX0zF2cvwm0-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3UE59Q6NZRX0zF2cvwm0-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;JTAG source and probe&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="3UE59Q6NZRX0zF2cvwm0-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;PC control and CSV analysis&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="3UE59Q6NZRX0zF2cvwm0-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Returned pairs at 20 KHz&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="100" x="520" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="3UE59Q6NZRX0zF2cvwm0-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;All application state uses the 50 MHz board clock&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="450" x="90" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3UE59Q6NZRX0zF2cvwm0-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;PC writes the control register through JTAG and reads the completed buffer&lt;/b&gt;" vertex="1">
+          <mxGeometry height="70" width="150" x="20" y="600" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
