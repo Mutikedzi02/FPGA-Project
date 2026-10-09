@@ -1,5 +1,5 @@
 # FPGA-Project
-PC-controlled digital downconverter (DDC) with a built-in test signal
+PC-controlled Digital Down Converter (DDC) with a built-in test signal
 
 # DE10-Lite Digital Down Converter
 
